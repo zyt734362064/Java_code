@@ -32,8 +32,8 @@
       <file leaf-file-name="UdpEchoServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0630/UdpEchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="80">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#813#814#0" expanded="true" />
@@ -43,13 +43,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UdpEchoClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UdpEchoClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0630/UdpEchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="752">
               <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UdpDicServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Test0630/UdpDicServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/com/Test0629/UdpEchoClient.java" />
         <option value="$PROJECT_DIR$/src/com/Test0630/UdpEchoClient.java" />
         <option value="$PROJECT_DIR$/src/com/Test0630/UdpEchoServer.java" />
+        <option value="$PROJECT_DIR$/src/com/Test0630/UdpDicServer.java" />
       </list>
     </option>
   </component>
@@ -108,7 +123,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1180" />
@@ -160,6 +175,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Test0630" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -192,18 +214,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.UdpEchoClient (1)">
-    <configuration name="Main_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test0629.Main_1" />
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Test0629.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="UdpEchoClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test0630.UdpEchoClient" />
+    <configuration name="UdpDicServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test0630.UdpDicServer" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
@@ -222,8 +234,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="UdpEchoServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test0630.UdpEchoServer" />
+    <configuration name="UdpEchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test0630.UdpEchoClient" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
@@ -242,20 +254,30 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="UdpEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test0630.UdpEchoServer" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Test0630.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main_1" />
       <item itemvalue="Application.UdpEchoServer" />
       <item itemvalue="Application.UdpEchoClient" />
       <item itemvalue="Application.UdpEchoServer (1)" />
       <item itemvalue="Application.UdpEchoClient (1)" />
+      <item itemvalue="Application.UdpDicServer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.UdpEchoClient (1)" />
+        <item itemvalue="Application.UdpDicServer" />
         <item itemvalue="Application.UdpEchoServer (1)" />
         <item itemvalue="Application.UdpEchoServer" />
         <item itemvalue="Application.UdpEchoClient" />
-        <item itemvalue="Application.Main_1" />
       </list>
     </recent_temporary>
   </component>
@@ -271,15 +293,15 @@
       <updated>1593236057985</updated>
       <workItem from="1593236064007" duration="19722000" />
       <workItem from="1593411931032" duration="13083000" />
-      <workItem from="1593497190193" duration="5411000" />
+      <workItem from="1593497190193" duration="6015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38216000" />
+    <option name="totallyTimeSpent" value="38820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -534,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0630/UdpEchoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="80">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#813#814#0" expanded="true" />
@@ -546,10 +568,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0630/UdpEchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="752">
           <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test0630/UdpDicServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
           </folding>
         </state>
       </provider>

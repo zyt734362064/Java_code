@@ -36,7 +36,7 @@ public class UdpEchoServer {
 
     }
 
-    private String process(String requset) {
+    public  String process(String requset) {
         return requset;
     }
 
