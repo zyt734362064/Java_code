@@ -23,7 +23,7 @@ public class TcpEchoServer {
         while (true){
             //1）先从内核中获取到一个 TCP 连接
             Socket clientSocket = serverSocket.accept();
-            //2）这个连接
+            //2）处理这个连接
             processConnection(clientSocket);
         }
     }
