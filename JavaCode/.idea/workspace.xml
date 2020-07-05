@@ -44,11 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main1_1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main1_1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0705/Main1_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="217">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Test0705/Main2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" selection-start-line="5" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -106,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/com/Test0630/TcpEchoServer.java" />
         <option value="$PROJECT_DIR$/src/com/Test0705/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Test0705/Main1_1.java" />
+        <option value="$PROJECT_DIR$/src/com/Test0705/Main2.java" />
       </list>
     </option>
   </component>
@@ -185,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1_1">
+  <component name="RunManager" selected="Application.Main2 (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test0705.Main" />
       <module name="JavaCode" />
@@ -206,12 +216,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test0702.Main2" />
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test0705.Main2" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Test0702.*" />
+          <option name="PATTERN" value="com.Test0705.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,19 +257,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Main2" />
       <item itemvalue="Application.TcpEchoServer" />
       <item itemvalue="Application.TcpEchoClient" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main1_1" />
+      <item itemvalue="Application.Main2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main1_1" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.TcpEchoClient" />
         <item itemvalue="Application.TcpEchoServer" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -280,12 +290,12 @@
       <workItem from="1593670655021" duration="9977000" />
       <workItem from="1593780775903" duration="3181000" />
       <workItem from="1593825336113" duration="542000" />
-      <workItem from="1593920192790" duration="6370000" />
+      <workItem from="1593920192790" duration="7480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69522000" />
+    <option name="totallyTimeSpent" value="70632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -293,7 +303,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32968536" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -301,11 +311,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.29001367" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.29001367" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12174479" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12174479" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,13 +338,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Test0701/TcpEchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0702/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -698,8 +701,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0705/Main1_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="217">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test0705/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="24" />
         </state>
       </provider>
     </entry>
