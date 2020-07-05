@@ -45,7 +45,7 @@ public class TcpEchoServer {
                 String response = process(request);
                 //3.把响应写回客户端(客户端需要按行来读）
                 bufferedWriter.write(response + "\n");
-
+                bufferedWriter.flush();
                 System.out.printf("[%s,%d]req:%s; resp:%s\n",clientSocket.getInetAddress().toString(),
                         clientSocket.getPort(),request,response);
             }
