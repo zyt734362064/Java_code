@@ -1,4 +1,4 @@
-package com.Test0707;
+package com.Test0708;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -6,30 +6,34 @@ import java.net.Socket;
 
 /**
  * Create with IntelliJ IDEA
- * Description:TCP 服务器
+ * Description:TCP 的多线程服务器
  * User:Zyt
- * Date:2020-07-07
+ * Date:2020-07-08
  */
-public class TcpEchoServer {
+public class TcpThreadEchoServer {
     private ServerSocket serverSocket = null;
 
-    public TcpEchoServer(int port) throws IOException {
+    public TcpThreadEchoServer(int port) throws IOException {
         serverSocket = new ServerSocket(port);
     }
     public void start() throws IOException {
-        System.out.println("服务器启动！");
+        System.out.println("服务器启动");
         while (true){
             Socket clientSocket = serverSocket.accept();
-
-            processConnection(clientSocket);
+            Thread t = new Thread(){
+                @Override
+                public void run(){
+                   processConnection(clientSocket);
+                }
+            };
+            t.start();
         }
     }
-
-    private void processConnection(Socket clientSocket) {
-            System.out.printf("[%s:%d]客户端上线\n",clientSocket.getInetAddress().toString(),
+    public void processConnection(Socket clientSocket){
+        System.out.printf("[%s:%d]客户端上线！\n",clientSocket.getInetAddress().toString(),
                 clientSocket.getPort());
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-             BufferedWriter bufferedWriter =  new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()))){
+             BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()))){
             while (true){
                 String request = bufferedReader.readLine();
                 String response = process(request);
@@ -38,9 +42,9 @@ public class TcpEchoServer {
                 System.out.printf("[%s:%d]req:%s,resp:%s\n",clientSocket.getInetAddress().toString(),
                         clientSocket.getPort(),request,response);
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             //e.printStackTrace();
-            System.out.printf("[%s:%d]客户端下线\n",clientSocket.getInetAddress().toString(),
+            System.out.printf("[%s:%d]客户端下线！\n",clientSocket.getInetAddress().toString(),
                     clientSocket.getPort());
         }
     }
@@ -50,7 +54,7 @@ public class TcpEchoServer {
     }
 
     public static void main(String[] args) throws IOException {
-        TcpEchoServer tcpEchoServer = new TcpEchoServer(9090);
-        tcpEchoServer.start();
+        TcpThreadEchoServer tcpThreadEchoServer = new TcpThreadEchoServer(9090);
+        tcpThreadEchoServer.start();
     }
 }
