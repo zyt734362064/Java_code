@@ -38,11 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoUpstairs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoUpstairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0710/GoUpstairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="297">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoUpstairs_1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Test0710/GoUpstairs_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -114,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/com/Test0709/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/com/Test0710/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Test0710/GoUpstairs.java" />
+        <option value="$PROJECT_DIR$/src/com/Test0710/GoUpstairs_1.java" />
       </list>
     </option>
   </component>
@@ -126,7 +136,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1180" />
@@ -204,7 +214,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDemo">
+  <component name="RunManager" selected="Application.GoUpstairs_1">
+    <configuration name="GoUpstairs_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test0710.GoUpstairs_1" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Test0710.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test0708.Main" />
       <module name="JavaCode" />
@@ -245,16 +265,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TcpThreadEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test0708.TcpThreadEchoServer" />
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Test0708.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test0709.TestDemo" />
       <module name="JavaCode" />
@@ -267,18 +277,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TcpEchoClient" />
-      <item itemvalue="Application.TcpThreadEchoServer" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main_1" />
       <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.GoUpstairs_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoUpstairs_1" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.Main_1" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.TcpEchoClient" />
-        <item itemvalue="Application.TcpThreadEchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -306,12 +316,12 @@
       <workItem from="1594188916132" duration="9131000" />
       <workItem from="1594278161377" duration="13809000" />
       <workItem from="1594361919562" duration="786000" />
-      <workItem from="1594372546852" duration="1663000" />
+      <workItem from="1594372546852" duration="2309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106250000" />
+    <option name="totallyTimeSpent" value="106896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -354,13 +364,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Test0628/UdpEchoServer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0628/Balance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -682,8 +685,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0710/GoUpstairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="297">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test0710/GoUpstairs_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
         </state>
       </provider>
     </entry>
