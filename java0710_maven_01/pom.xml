@@ -46,7 +46,7 @@
   </dependencies>
 
   <build>
-    <finalName>java0710_maven_01</finalName>
+    <finalName>java</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
