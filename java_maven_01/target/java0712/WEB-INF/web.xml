@@ -25,6 +25,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>ServletDemo1</servlet-name>
+        <servlet-class>java0712.ServletDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo1</servlet-name>
+        <url-pattern>/ServletDemo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>java_cale</servlet-name>
         <servlet-class>java0712.CalcServelet</servlet-class>
     </servlet>

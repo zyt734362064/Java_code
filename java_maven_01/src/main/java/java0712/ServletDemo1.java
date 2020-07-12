@@ -19,7 +19,36 @@ public class ServletDemo1 extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
         String encoding = req.getCharacterEncoding();
 
+        String  contentType = req.getContentType();
+        String contextPath = req.getContextPath();
+
+        String ua = req.getHeader("user-Agent");
+        String host = req.getHeader("Host");
+        String method = req.getMethod();
+        String protocol = req.getProtocol();
+        String queryStirng = req.getQueryString();
+        String url = req.getRequestURI();
+        int contentLength = req.getContentLength();
         Writer writer = resp.getWriter();
+        writer.write("<html>");
+        writer.write("encoding:" + encoding);
+        writer.write("<br/>");
+        writer.write("contentType:" + contentType);
+        writer.write("<br/>");
+        writer.write("contextPath:" + contextPath);
+        writer.write("<br/>");
+        writer.write("ua:" + ua);
+        writer.write("<br/>");
+        writer.write("host:" + host);
+        writer.write("<br/>");
+        writer.write("protocol:" + protocol);
+        writer.write("<br/>");
+        writer.write("querySting:" + queryStirng);
+        writer.write("<br/>");
+        writer.write("url:" + url);
+        writer.write("<br/>");
+        writer.write("contentLength:" + contentLength);
+        writer.write("</html>");
 
     }
 }
