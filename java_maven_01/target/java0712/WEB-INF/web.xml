@@ -7,13 +7,21 @@
          metadata-complete="true">
 
 <servlet>
-    <servlet-name>java16_hello</servlet-name>
+    <servlet-name>java_hello</servlet-name>
     <servlet-class>HelloServlet</servlet-class>
 </servlet>
 <servlet-mapping>
-    <servlet-name>java16_hello</servlet-name>
-    <url-pattern>/java16-hello</url-pattern>
+    <servlet-name>java_hello</servlet-name>
+    <url-pattern>/java-hello</url-pattern>
 </servlet-mapping>
 
+    <servlet>
+        <servlet-name>CalcServlet</servlet-name>
+        <servlet-class>CalcServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CalcServlet</servlet-name>
+        <url-pattern>/CalcServlet</url-pattern>
+    </servlet-mapping>
 
 </web-app>
