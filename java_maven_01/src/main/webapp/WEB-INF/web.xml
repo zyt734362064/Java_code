@@ -24,4 +24,12 @@
         <url-pattern>/CalcServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>java_cale</servlet-name>
+        <servlet-class>java0712.CalcServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>java_cale</servlet-name>
+        <url-pattern>/javacale</url-pattern>
+    </servlet-mapping>
 </web-app>
