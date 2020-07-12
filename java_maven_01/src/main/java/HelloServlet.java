@@ -18,7 +18,8 @@ public class HelloServlet extends HttpServlet {
         //super.doGet(req, resp);
         //先写一个简单的 hello world
         //请求无论是啥，响应都固定返回一个 hello servlet
-        resp.getWriter().write("<h1>hello servlet</h1>");
+        resp.getWriter().write("<h1>study</h1>");
+        resp.getWriter().write("<h2>chenziting</h2>");
 
     }
 
