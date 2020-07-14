@@ -103,11 +103,19 @@
         <url-pattern>/ServletDemo8</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>ServletDemo10</servlet-name>
-        <servlet-class>java0713.ServletDemo10</servlet-class>
-    </servlet>
+    <servlet-name>ServletDemo10</servlet-name>
+    <servlet-class>java0713.ServletDemo10</servlet-class>
+</servlet>
     <servlet-mapping>
         <servlet-name>ServletDemo10</servlet-name>
         <url-pattern>/uploadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletDemo9</servlet-name>
+        <servlet-class>java0714.ServletDemo9</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo9</servlet-name>
+        <url-pattern>/ServletDemo9</url-pattern>
     </servlet-mapping>
 </web-app>
