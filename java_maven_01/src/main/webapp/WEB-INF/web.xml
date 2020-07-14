@@ -120,4 +120,13 @@
         <servlet-name>ServletDemo9</servlet-name>
         <url-pattern>/ServletDemo9</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Demo1</servlet-name>
+        <servlet-class>java0714.ServletDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo1</servlet-name>
+        <url-pattern>/Demo1</url-pattern>
+    </servlet-mapping>
 </web-app>
