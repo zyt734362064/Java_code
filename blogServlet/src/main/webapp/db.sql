@@ -4,9 +4,9 @@ create database java_blogdemo;
 drop table if exists user;
 use java_blogdemo;
 create table user (
-userId int primary key  auto_increment,
-name varchar(50) unique ,
-password varchar(50)
+  userId int primary key  auto_increment,
+  name varchar(50) unique ,
+  password varchar(50)
 );
 drop table if exists article;
 create table article (

@@ -2,7 +2,6 @@ package model;
 
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
-import com.sun.corba.se.impl.oa.poa.POAPolicyMediatorImpl_NR_UDS;
 
 import javax.sql.DataSource;
 import java.sql.PreparedStatement;
@@ -37,22 +36,34 @@ public class DButil {
                     ((MysqlDataSource)dataSource).setUser(USERNAME);
                     ((MysqlDataSource)dataSource).setPassword(PASSWORD);
                 }
-
             }
         }
         return dataSource;
     }
-    public static Connection getConnection(){
+    //通过这个方法获取连接
+    public static java.sql.Connection getConnection(){
         try {
-            return getDataSource().getConnection();
+            return dataSource.getConnection();
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
     }
-
+    //通过这个方法断开连接
     public static void close(Connection connection, PreparedStatement statement,
                              ResultSet resultSet){
-
+        try {
+            if (resultSet != null){
+                resultSet.close();
+            }
+            if (statement != null){
+                statement.close();
+            }
+            if (connection != null){
+                connection.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }
