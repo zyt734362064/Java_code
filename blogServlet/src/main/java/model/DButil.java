@@ -1,6 +1,6 @@
 package model;
 
-import com.mysql.jdbc.Connection;
+import java.sql.Connection;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
 import javax.sql.DataSource;
@@ -41,9 +41,9 @@ public class DButil {
         return dataSource;
     }
     //通过这个方法获取连接
-    public static java.sql.Connection getConnection(){
+    public static Connection getConnection(){
         try {
-            return dataSource.getConnection();
+            return getDataSource().getConnection();
         } catch (SQLException e) {
             e.printStackTrace();
         }
