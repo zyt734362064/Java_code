@@ -69,8 +69,8 @@
       <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0709/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1857">
-              <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+            <state relative-caret-position="2884">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
             </state>
           </provider>
         </entry>
@@ -130,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/com/Test0708/Main_1.java" />
         <option value="$PROJECT_DIR$/src/com/Test0708/Main2.java" />
         <option value="$PROJECT_DIR$/src/com/Test0709/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/Test0709/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/com/Test0710/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Test0710/GoUpstairs.java" />
         <option value="$PROJECT_DIR$/src/com/Test0710/GoUpstairs_1.java" />
@@ -138,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/com/Test0715/Main2.java" />
         <option value="$PROJECT_DIR$/src/com/Test0716/Main1.java" />
         <option value="$PROJECT_DIR$/src/com/Test0716/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/Test0709/MyArrayList.java" />
       </list>
     </option>
   </component>
@@ -150,7 +150,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1180" />
@@ -347,12 +347,12 @@
       <workItem from="1594372546852" duration="2930000" />
       <workItem from="1594428994047" duration="569000" />
       <workItem from="1594801451362" duration="4182000" />
-      <workItem from="1594897047739" duration="3893000" />
+      <workItem from="1594897047739" duration="5678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116161000" />
+    <option name="totallyTimeSpent" value="117946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -368,11 +368,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.29943502" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.29943502" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122654155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122654155" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -692,21 +692,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Test0715/Main2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Test0709/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#689#698#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2884">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Test0709/MyArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Test0716/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1857">
-          <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+        <state relative-caret-position="319">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -720,12 +719,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Test0716/Main1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Test0715/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="617">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#689#698#0" expanded="true" />
           </folding>
         </state>
       </provider>
