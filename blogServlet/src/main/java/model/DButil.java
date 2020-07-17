@@ -32,6 +32,7 @@ public class DButil {
             synchronized (DButil.class) {
                 if (dataSource == null) {
                     dataSource = new MysqlDataSource();
+                    // 给 DataSource 设置一些属性
                     ((MysqlDataSource)dataSource).setURL(URL);
                     ((MysqlDataSource)dataSource).setUser(USERNAME);
                     ((MysqlDataSource)dataSource).setPassword(PASSWORD);
