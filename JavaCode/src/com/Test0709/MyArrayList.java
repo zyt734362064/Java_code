@@ -77,7 +77,7 @@ public class MyArrayList {
 
      //判断 pos 值是否合法
      private void checkPos(int pos){
-         if (pos >= usedSize || pos < 0){
+         if (pos > usedSize || pos < 0){
              throw new RuntimeException("pos 值不合法！");
          }
      }
@@ -91,17 +91,28 @@ public class MyArrayList {
              throw new RuntimeException("顺序表为空！");
          }
          //2、判断 pos 合法性
-         checkPos(pos);
-        return elem[pos];
+         if (pos < 0 || pos >= this.usedSize){
+             throw new RuntimeException("pos 位置不合法！");
+         }
+        return this.elem[pos];
     }
      // 给 pos 位置的元素设为 value
      public void setPos(int pos, int value) {
-
+        if (pos < 0 || pos >= this.usedSize)
+        this.elem[pos] = value;
      }
     //删除第一次出现的关键字key
     public void remove(int toRemove) {
        int i = search(toRemove);
-
+       if (i == -1){
+           System.out.println("没有需要删除的数字！");
+           return;
+       }
+        while (i < this.usedSize - 1) {
+            elem[i] = elem[i+1];
+            i++;
+        }
+        this.usedSize--;
     }
      // 获取顺序表长度
      public int size() {
@@ -109,6 +120,6 @@ public class MyArrayList {
     }
     // 清空顺序表
     public void clean(){
-
+        this.usedSize = 0;
     }
 }
