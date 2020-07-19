@@ -20,7 +20,7 @@ public class Article {
         this.articleId = articleId;
     }
 
-    public String getTitle() {
+    public static String getTitle() {
         return title;
     }
 

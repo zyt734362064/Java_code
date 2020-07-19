@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 public class UserDao {
     //1、新增用户
     //2、按照名字查找用户（登录）
-    void add(User user){
+    public void add(User user){
         //1.获取数据库连接
         Connection connection = DButil.getConnection();
         //2.拼装 SQL 语句
@@ -68,13 +68,13 @@ public class UserDao {
         }
         return null;
     }
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         UserDao userDao = new UserDao();
-        User user = new User();
+/*         User user = new User();
         user.setName("zzz");
         user.setPassword("123");
         userDao.add(user);
 
-
+*/
     }
 }
