@@ -14,47 +14,24 @@ import java.sql.SQLException;
  * Date:2020-07-17
  */
 public class UserDao {
-    void add(User user){
+    public void add(User user){
         Connection connection = DButil.getConnection();
-        String sql = "insert into user values (null,?,?)";
+        String sql = "insert into User values (null,?,?)";
         PreparedStatement statement = null;
-
         try {
             statement = connection.prepareStatement(sql);
             statement.setString(1,user.getName());
             statement.setString(2,user.getPassword());
+
             int ret = statement.executeUpdate();
             if (ret != 1){
-                System.out.println("用户插入失败！");
+                System.out.println("新用户插入失败！");
             }
-            System.out.println("用户插入成功！");
+            System.out.println("新用户插入成功！");
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
             DButil.close(connection,statement,null);
         }
-    }
-    public User selectUserName(String name){
-        Connection connection = DButil.getConnection();
-        String sql = "select * from user where name = ?";
-
-        PreparedStatement statement = null;
-        ResultSet resultSet = null;
-        try {
-            statement = connection.prepareStatement(sql);
-            statement.setString(1,name);
-            resultSet = statement.executeQuery();
-            if (resultSet.next()){
-                User user = new User();
-                user.setUserId(resultSet.getInt("userId"));
-                user.setName(resultSet.getString("name"));
-                user.setPassword(resultSet.getString("password"));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }finally {
-            DButil.close(connection,statement,null);
-        }
-        return null;
     }
 }
