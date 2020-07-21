@@ -4,15 +4,16 @@ use blogdemo;
 
 drop table if exists user;
 create table user (
-    userId int primary key auto_increment.
+    userId int primary key auto_increment,
     name varchar(50),
     password varchar(50)
 );
 
-drop table if exists article (
-    articleId int primary key auto_increment,
-    title varchar(50),
-    content text,
-    userId int,
-    foregin key(userId) references user(userId)
-);
+drop table if exists article;
+create table article (
+      articleId int primary key auto_increment,
+      title varchar(50),
+      content text,
+      userId int,
+      foreign key(userId) references user(userId)
+  );

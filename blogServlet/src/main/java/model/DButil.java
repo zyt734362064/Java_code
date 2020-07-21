@@ -21,7 +21,8 @@ import java.sql.SQLException;
  * User:Zyt
  * Date:2020-07-13
  */
-public class DButil {
+public class
+DButil {
     private static volatile DataSource dataSource = null;
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/java_blogdemo?characterEncoding=utf-8&useSSL=true";
     private static final String USERNAME = "root";

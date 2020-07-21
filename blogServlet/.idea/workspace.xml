@@ -73,7 +73,7 @@
       <file leaf-file-name="DelectArticleServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/DelectArticleServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1066">
+            <state relative-caret-position="570">
               <caret line="40" column="80" selection-start-line="40" selection-start-column="80" selection-end-line="40" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,8 +85,8 @@
       <file leaf-file-name="DButil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/DButil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="792">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/ArticleDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/register.html" />
-        <option value="$PROJECT_DIR$/src/main/java/model/DButil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/api/HtmlGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/RegisterServlet.java" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/java/view/HtmlGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/ArticleServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/DelectArticleServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/DButil.java" />
       </list>
     </option>
   </component>
@@ -188,7 +188,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -199,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -278,7 +279,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,14 +391,16 @@
       <workItem from="1594965737498" duration="7754000" />
       <workItem from="1595121103361" duration="16666000" />
       <workItem from="1595252233170" duration="638000" />
+      <workItem from="1595324328591" duration="996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44333000" />
+    <option name="totallyTimeSpent" value="45329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -414,7 +416,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15817694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16018766" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -809,7 +811,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/DelectArticleServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
+        <state relative-caret-position="570">
           <caret line="40" column="80" selection-start-line="40" selection-start-column="80" selection-end-line="40" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -819,8 +821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/DButil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="792">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
