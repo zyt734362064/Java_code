@@ -7,17 +7,17 @@ package model;
  * Date:2020-07-17
  */
 public class Article {
-    private int arrticleId;
+    private int articleId;
     private String title;
     private String content;
     private int userId;
 
-    public int getArrticleId() {
-        return arrticleId;
+    public int getArticleId() {
+        return articleId;
     }
 
-    public void setArrticleId(int arrticleId) {
-        this.arrticleId = arrticleId;
+    public void setArticleId(int articleId) {
+        this.articleId = articleId;
     }
 
     public String getTitle() {
@@ -42,5 +42,15 @@ public class Article {
 
     public void setUserId(int userId) {
         this.userId = userId;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "articleId=" + articleId +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                ", userId=" + userId +
+                '}';
     }
 }

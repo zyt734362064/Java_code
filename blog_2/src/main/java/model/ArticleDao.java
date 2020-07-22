@@ -14,6 +14,7 @@ import java.util.List;
  * Date:2020-07-22
  */
 public class ArticleDao {
+    //添加文章操作
     public void add(Article article){
         Connection connection = DButil.getConnection();
         String sql = "insert into article values (null,?,?,?)";
@@ -34,6 +35,7 @@ public class ArticleDao {
             DButil.close(connection,statement,null);
         }
     }
+    //将所有的文章展示出来，并不展示文章内容
    public List<Article> selectAll(){
         List<Article> articles = new ArrayList<>();
         Connection connection = DButil.getConnection();
@@ -45,7 +47,7 @@ public class ArticleDao {
            resultSet = statement.executeQuery();
            while (resultSet.next()){
                Article article = new Article();
-               article.setArrticleId(resultSet.getInt("articleId"));
+               article.setArticleId(resultSet.getInt("articleId"));
                article.setTitle(resultSet.getString("title"));
                article.setUserId(resultSet.getInt("userId"));
                articles.add(article);
@@ -58,9 +60,10 @@ public class ArticleDao {
        }
        return null;
    }
+   //根据文章ID查找
    public Article selectById(int articleId){
         Connection connection = DButil.getConnection();
-        String sql = "select * form article where articleId = ?";
+        String sql = "select * from article where articleId = ?";
         PreparedStatement statement = null;
         ResultSet resultSet = null;
        try {
@@ -69,7 +72,7 @@ public class ArticleDao {
            resultSet = statement.executeQuery();
            if (resultSet.next()){
                Article article = new Article();
-               article.setArrticleId(resultSet.getInt("articleId"));
+               article.setArticleId(resultSet.getInt("articleId"));
                article.setTitle(resultSet.getString("title"));
                article.setContent(resultSet.getString("content"));
                article.setUserId(resultSet.getInt("userId"));
@@ -82,6 +85,7 @@ public class ArticleDao {
        }
        return null;
    }
+   //删除文章操作
    public void delete(int articleID){
         Connection connection = DButil.getConnection();
         String sql = "delete from article where articleId = ?";
@@ -103,11 +107,20 @@ public class ArticleDao {
 
     public static void main(String[] args) {
         ArticleDao articleDao = new ArticleDao();
-        Article article = new Article();
+        /*  //测试新增文章
+       Article article = new Article();
         article.setTitle("我是标题");
         article.setContent("正文在这里正文在这里正文在这里正文在这里正文在这里正文在这里" +
                 "正文在这里正文在这里正文在这里正文在这里正文在这里");
         article.setUserId(1);
-        articleDao.add(article);
+       articleDao.add(article);*/
+        //测试查看文章列表
+       /*  List<Article> articles = articleDao.selectAll();
+        System.out.println(articles);
+        //测试查看指定文章内容
+      Article article1 = articleDao.selectById(1);
+        System.out.println(article1);
+        //删除操作
+        articleDao.delete(1);*/
     }
 }

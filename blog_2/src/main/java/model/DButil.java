@@ -1,7 +1,6 @@
 package model;
 
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
-import com.sun.xml.internal.ws.util.ReadAllStream;
 
 import javax.sql.DataSource;
 

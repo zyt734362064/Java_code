@@ -1,7 +1,5 @@
 package model;
 
-import sun.security.pkcs11.Secmod;
-import sun.text.normalizer.UBiDiProps;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -80,4 +78,14 @@ public class UserDao {
        }
        return null;
    }
+
+    public static void main(String[] args) {
+        UserDao userDao = new UserDao();
+        /*User user = new User();
+        user.setName("zyt");
+        user.setPassword("123");
+        userDao.add(user);*/
+        User user = userDao.selectByName("zyt");
+        System.out.println(user);
+    }
 }
