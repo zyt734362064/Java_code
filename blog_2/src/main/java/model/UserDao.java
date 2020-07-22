@@ -17,29 +17,26 @@ import java.sql.SQLException;
 public class UserDao {
    public void add(User user){
        Connection connection = DButil.getConnection();
-       String sql = "insert into User values (null,?,?)";
-
+       String sql = "insert into user values (null,?,?)";
        PreparedStatement statement = null;
        try {
            statement = connection.prepareStatement(sql);
            statement.setString(1,user.getName());
            statement.setString(2,user.getPassword());
-           int set = statement.executeUpdate();
-           if (set != 1){
-               System.out.println("插入新用户失败！");
+           int ret = statement.executeUpdate();
+           if (ret != 1){
+               System.out.println("新用户插入失败！");
            }
-           System.out.println("插入新用户成功！");
+           System.out.println("新用户插入成功！");
        } catch (SQLException e) {
            e.printStackTrace();
        }finally {
            DButil.close(connection,statement,null);
        }
    }
-   //按照名字查找用户
-   public User selectByName(String name) {
+   public User selectByName(String name){
        Connection connection = DButil.getConnection();
-       String sql ="select * from user where name = ?";
-
+       String sql = "select * from user where name = ?";
        PreparedStatement statement = null;
        ResultSet resultSet = null;
        try {
@@ -58,7 +55,7 @@ public class UserDao {
        }finally {
            DButil.close(connection,statement,resultSet);
        }
-        return null;
+       return null;
    }
    public User selectById(int userId){
        Connection connection = DButil.getConnection();
@@ -83,19 +80,4 @@ public class UserDao {
        }
        return null;
    }
-
-    public static void main(String[] args) {
-        UserDao userDao = new UserDao();
-        //测试 add 方法
-/*        User user = new User(); //
-        user.setName("zyt");
-        user.setPassword("123");
-        userDao.add(user);
-        // 测试查询方法
-        userDao.selectByName("zyt");
-        System.out.println(user);
-        userDao.selectById(1);
-        System.out.println(user);*/
-
-    }
 }
