@@ -15,4 +15,13 @@
     <url-pattern>/register</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>api.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
 </web-app>
