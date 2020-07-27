@@ -9,6 +9,6 @@ package dao;
 public class MusicDao {
 
     public int deleteMusicById(int id){
-
+        return 0;
     }
 }
