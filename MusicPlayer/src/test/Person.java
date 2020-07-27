@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * Create with IntelliJ IDEA
- * Description:
+ * Description:对象转字符串
  * User:Zyt
  * Date:2020-07-27
  */
