@@ -53,8 +53,8 @@
       <file leaf-file-name="mysql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/mysql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="95">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -83,12 +83,12 @@
       <file leaf-file-name="MusicDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/MusicDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +109,7 @@
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="-173">
               <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,7 +121,7 @@
       <file leaf-file-name="PreparedStatement.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="140">
               <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
             </state>
           </provider>
@@ -130,8 +130,8 @@
       <file leaf-file-name="Music.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entity/Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+            <state relative-caret-position="294">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -149,12 +149,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/mysql" />
-        <option value="$PROJECT_DIR$/src/entity/Music.java" />
         <option value="$PROJECT_DIR$/src/entity/User.java" />
         <option value="$PROJECT_DIR$/src/test/Person.java" />
         <option value="$PROJECT_DIR$/src/util/DBuntil.java" />
         <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/web/mysql" />
+        <option value="$PROJECT_DIR$/src/entity/Music.java" />
         <option value="$PROJECT_DIR$/src/dao/MusicDao.java" />
       </list>
     </option>
@@ -168,7 +169,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -209,25 +210,7 @@
             <path>
               <item name="MusicPlayer" type="b2602c69:ProjectViewProjectNode" />
               <item name="MusicPlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicPlayer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicPlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicPlayer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicPlayer" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicPlayer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicPlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,7 +248,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserDao">
+  <component name="RunManager" selected="Application.MusicDao">
+    <configuration name="MusicDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dao.MusicDao" />
+      <module name="MusicPlayer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Person" />
       <module name="MusicPlayer" />
@@ -405,9 +399,11 @@
       <item itemvalue="Tomcat Server.MusicPlayer" />
       <item itemvalue="Application.Person" />
       <item itemvalue="Application.UserDao" />
+      <item itemvalue="Application.MusicDao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MusicDao" />
         <item itemvalue="Application.UserDao" />
         <item itemvalue="Application.Person" />
       </list>
@@ -426,12 +422,12 @@
       <workItem from="1595398203787" duration="3093000" />
       <workItem from="1595831506460" duration="3704000" />
       <workItem from="1595841813308" duration="6446000" />
-      <workItem from="1595918601976" duration="3955000" />
+      <workItem from="1595918601976" duration="7717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17198000" />
+    <option name="totallyTimeSpent" value="20960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -539,8 +535,8 @@
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -599,13 +595,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35243123-07a0-4541-93a8-382faef9888c/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/mysql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -616,27 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="674">
           <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,21 +622,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mysql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        <state relative-caret-position="294">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/MusicDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
           </folding>
         </state>
       </provider>

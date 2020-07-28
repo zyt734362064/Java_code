@@ -12,7 +12,7 @@ public class Music {
     private int id;
     private String title;
     private String singer;
-    private Date time;
+    private String  time;
     private String url;
     private int userid;
 
@@ -40,11 +40,11 @@ public class Music {
         this.singer = singer;
     }
 
-    public Date getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(Date time) {
+    public void setTime(String time) {
         this.time = time;
     }
 
