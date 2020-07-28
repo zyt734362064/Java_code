@@ -116,7 +116,9 @@ public class MyArrayList {
     }
      // 获取顺序表长度
      public int size() {
+
         return this.usedSize;
+
     }
     // 清空顺序表
     public void clean(){

@@ -19,16 +19,23 @@ public class TestDemo {
         System.out.println("========");
         *//*System.out.println(myArrayList1.search(3));
         System.out.println(myArrayList1.contains(3));*//*
+         System.out.println(myArrayList1.size());
         System.out.println(myArrayList1.getPos(3));
         //System.out.println(myArrayList1.getPos(20));*/
 
-        //System.out.println(myArrayList1.size());
+
+      /*   myArrayList1.display();
+       myArrayList1.remove(50);
         myArrayList1.display();
-/*        myArrayList1.remove(50);
-        myArrayList1.display();*/
         myArrayList1.clean();
-        System.out.println("==============");
+
         myArrayList1.display();
-        System.out.println("==============");
+
+        myArrayList1.remove(90);*/
+        myArrayList1.display();
+        System.out.println("=========清空顺序表=========");
+        myArrayList1.clean();
+        myArrayList1.display();
+        System.out.println("===========================");
     }
 }
