@@ -15,7 +15,7 @@ import java.sql.SQLException;
  * Date:2020-07-27
  */
 public class DBUtil {
-    private static String url = "jdbc:mysql://127.0.0.1:3306/musicplayer?useSSL=flase";
+    private static String url = "jdbc:mysql://127.0.0.1:3306/musicplayer?useSSL=false";
     private static String user = "root";
     private static String password = "";
 
@@ -48,15 +48,17 @@ public class DBUtil {
     public static void getClose(Connection connection, PreparedStatement statement, ResultSet resultSet){
 
             try {
-                if (connection != null){
-                    connection.close();
+
+                if (resultSet != null){
+                    resultSet.close();
                 }
                 if (statement != null){
                     statement.close();
                 }
-                if (resultSet != null){
-                    resultSet.close();
+                if (connection != null){
+                    connection.close();
                 }
+
             } catch (SQLException e) {
                 e.printStackTrace();
             }
