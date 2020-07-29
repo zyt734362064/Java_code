@@ -42,7 +42,7 @@
         });
         function load(musicName){
             $.ajax({
-                url: "/GaoBoMusic/findMusic",
+                url: "/findMusic",
                 type:"get",
                 data:{musicName:musicName},
                 dataType: "json",
@@ -85,7 +85,7 @@
         function loveInfo(obj) {
             console.log(obj);
             $.ajax({
-                url:"/GaoBoMusic/loveMusicServlet",
+                url:"/loveMusicServlet",
                 type: "post",
                 //发送给后端的数据
                 data: {"id": obj},

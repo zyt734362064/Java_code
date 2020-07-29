@@ -73,12 +73,12 @@ public class UserDao {
         return user;
     }
 
-    public static void main(String[] args) {
+     /*public static void main(String[] args) {
         UserDao userDao = new UserDao();
-        /*User user = new User();
+       User user = new User();
         user.setUsername("aaa");
         user.setPassword("123");
         User loginUser = userDao.login(user);
-        System.out.println(loginUser);*/
-    }
+        System.out.println(loginUser);
+    }*/
 }

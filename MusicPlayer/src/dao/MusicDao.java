@@ -49,7 +49,7 @@ public class MusicDao {
      * @param id
      * @return
      */
-    public Music findMusic(int id){
+    public Music findMusicByID(int id){
         Connection connection = null;
         PreparedStatement statement = null;
         ResultSet resultSet = null;
@@ -90,7 +90,7 @@ public class MusicDao {
             statement = connection.prepareStatement(sql);
             statement.setInt(1,id);
             int ret = statement.executeUpdate();
-            if (ret == 1){
+            /*if (ret == 1){
                 if (findLoveMusicOnDel(id)){
                     int ret2 = removeLoveMusicOnDel(id);
                     if (ret2 == 1){
@@ -98,7 +98,7 @@ public class MusicDao {
                     }
                 }
                 return 1;//表示这首个没有被添加到 loveMusic 这张表当中
-            }
+            }*/
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
@@ -183,7 +183,7 @@ public class MusicDao {
      * 上传音乐
      *
      */
-    public int Insert(Music music){
+    public int insert(Music music){
         Connection connection = null;
         PreparedStatement statement = null;
 
@@ -358,9 +358,9 @@ public class MusicDao {
      * 测试部分
      * @param args
      */
-    public static void main(String[] args) {
+   /*  public static void main(String[] args) {
         MusicDao musicDao = new MusicDao();
-       /* Music music = musicDao.findMusic(1);
+       Music music = musicDao.findMusic(1);
         System.out.println(music);
        List<Music> musicList = musicDao.keySelectMusic("红");
         System.out.println(musicList);
@@ -372,10 +372,10 @@ public class MusicDao {
        music.setUserid(1);
        int ret = musicDao.Insert(music);
         System.out.println(ret);
-        System.out.println(musicDao.deleteMusicById(3));*/
+        System.out.println(musicDao.deleteMusicById(3));
        List<Music> musicList = musicDao.selectKeyLoveMusic("红",1);
         System.out.println(musicList);
 
-    }
+    }*/
 
 }
