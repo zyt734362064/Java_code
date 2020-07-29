@@ -24,3 +24,4 @@ create table lovemusic (
     user_id int(11) not null,
     music_id int(11) not null
 );
+insert into lovemusic(user_id,music_id) values(1,2);
