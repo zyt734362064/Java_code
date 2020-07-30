@@ -22,22 +22,25 @@ import java.util.List;
  * User:Zyt
  * Date:2020-07-29
  */
-@WebServlet
-public class uploadMusicServlet extends HttpServlet {
+@WebServlet("/upload")
+public class UploadMusicServlet extends HttpServlet {
+
     private final String SAVEPATH = "E:\\java_code\\dataCode\\Java_code\\MusicPlayer\\web\\music";
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setCharacterEncoding("UTF-8");
+        req.setCharacterEncoding("utf-8");
         resp.setContentType("application/json;charset=utf-8");
 
+
+
         User user = (User) req.getSession().getAttribute("user");
+
         if (user == null){
-            System.out.println("请登录后再上传音乐！");
-            return;
+            System.out.println("请登录后再上传");
+            resp.getWriter().write("<h2> 请登录后再上传音乐 " + "</h2>");
         }else {
-            //上传
             FileItemFactory factory = new DiskFileItemFactory();
-            ServletFileUpload upload = new ServletFileUpload(factory);
+            ServletFileUpload  upload = new ServletFileUpload(factory);
 
             List<FileItem> fileItems = null;
             try {
@@ -48,14 +51,18 @@ public class uploadMusicServlet extends HttpServlet {
             }
             System.out.println("fileItems:" + fileItems);
             FileItem fileItem = fileItems.get(0);
-            System.out.println("fileItem:" + fileItem);
+            System.out.println(fileItem);
+
             String fileName = fileItem.getName();
+            req.getSession().setAttribute("fileName",fileName);
+
             try {
                 fileItem.write(new File(SAVEPATH,fileName));
             } catch (Exception e) {
                 e.printStackTrace();
                 return;
             }
+            //上传到数据库当中
             resp.sendRedirect("uploadsucess.html");
 
         }

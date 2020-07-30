@@ -26,17 +26,17 @@ public class UploadInsertServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
         resp.setContentType("application/json;charset=utf-8");
+
         String singer = req.getParameter("singer");
         String fileName = (String) req.getSession().getAttribute("fileName");
-        String[] strings = fileName.split("\\.");
+
+        String[] strings = fileName.split("//.");
         String title = strings[0];
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
         String time = sdf.format(new Date());
-        User user = (User) req.getSession().getAttribute("user");
-        int user_id = user.getId();
-        String url = "music/"+title;
-        MusicDao musicDao = new MusicDao();
-        Music music = new Music();
-        int ret = musicDao.insert(music);
+
+
+
     }
 }

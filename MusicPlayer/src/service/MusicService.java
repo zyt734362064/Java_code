@@ -40,5 +40,10 @@ public class MusicService {
         return music;
     }
 
-    //    
+    //
+    public List<Music> keySecletMusic(String str){
+        List<Music> musicList = new ArrayList<>();
+        musicList = musicDao.keySelectMusic(str);
+        return musicList;
+    }
 }

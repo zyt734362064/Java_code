@@ -20,7 +20,7 @@ public class MusicDao {
         Connection connection = null;
         PreparedStatement statement = null;
         ResultSet resultSet = null;
-        List<Music> musicList = null;
+        List<Music> musicList = new ArrayList<>();
         try{
             String sql = "select * from  music";
             connection = DBUtil.getConnection();
@@ -38,6 +38,7 @@ public class MusicDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            throw new RuntimeException(e);
         } finally {
             DBUtil.getClose(connection,statement,resultSet);
         }
@@ -358,9 +359,9 @@ public class MusicDao {
      * 测试部分
      * @param args
      */
-   /*  public static void main(String[] args) {
+  public static void main(String[] args) {
         MusicDao musicDao = new MusicDao();
-       Music music = musicDao.findMusic(1);
+      /*    Music music = musicDao.findMusic(1);
         System.out.println(music);
        List<Music> musicList = musicDao.keySelectMusic("红");
         System.out.println(musicList);
@@ -374,8 +375,10 @@ public class MusicDao {
         System.out.println(ret);
         System.out.println(musicDao.deleteMusicById(3));
        List<Music> musicList = musicDao.selectKeyLoveMusic("红",1);
-        System.out.println(musicList);
-
-    }*/
+        System.out.println(musicList);*/
+        List<Music> musicList = new ArrayList<>();
+        musicList = musicDao.findMusic();
+      System.out.println(musicList);
+    }
 
 }
