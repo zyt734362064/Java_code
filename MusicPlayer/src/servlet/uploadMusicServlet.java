@@ -31,18 +31,19 @@ public class UploadMusicServlet extends HttpServlet {
         req.setCharacterEncoding("utf-8");
         resp.setContentType("application/json;charset=utf-8");
 
-
-
         User user = (User) req.getSession().getAttribute("user");
-
         if (user == null){
-            System.out.println("请登录后再上传");
-            resp.getWriter().write("<h2> 请登录后再上传音乐 " + "</h2>");
+            System.out.println("请先登录！");
+            System.out.println("<h3>");
+            System.out.println("请先登录！");
+            System.out.println("</h3>");
         }else {
+            //上传文件
             FileItemFactory factory = new DiskFileItemFactory();
-            ServletFileUpload  upload = new ServletFileUpload(factory);
+            ServletFileUpload upload = new ServletFileUpload(factory);
 
             List<FileItem> fileItems = null;
+
             try {
                 fileItems = upload.parseRequest(req);
             } catch (FileUploadException e) {
@@ -51,7 +52,7 @@ public class UploadMusicServlet extends HttpServlet {
             }
             System.out.println("fileItems:" + fileItems);
             FileItem fileItem = fileItems.get(0);
-            System.out.println(fileItem);
+            System.out.println("fileItem" + fileItem);
 
             String fileName = fileItem.getName();
             req.getSession().setAttribute("fileName",fileName);
@@ -60,12 +61,16 @@ public class UploadMusicServlet extends HttpServlet {
                 fileItem.write(new File(SAVEPATH,fileName));
             } catch (Exception e) {
                 e.printStackTrace();
-                return;
             }
-            //上传到数据库当中
+            
             resp.sendRedirect("uploadsucess.html");
 
+
         }
+
+
+
+
 
 
     }

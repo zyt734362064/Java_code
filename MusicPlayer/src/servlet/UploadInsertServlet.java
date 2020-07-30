@@ -3,6 +3,7 @@ package servlet;
 import dao.MusicDao;
 import entity.Music;
 import entity.User;
+import sun.nio.cs.ext.ISCII91;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -30,12 +31,29 @@ public class UploadInsertServlet extends HttpServlet {
         String singer = req.getParameter("singer");
         String fileName = (String) req.getSession().getAttribute("fileName");
 
-        String[] strings = fileName.split("//.");
+        String[] strings = fileName.split("\\.");
         String title = strings[0];
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
         String time = sdf.format(new Date());
 
+        User user = (User) req.getSession().getAttribute("user");
+
+        int user_id = user.getId();
+
+        String url = "music/" + title;
+
+        MusicDao musicDao = new MusicDao();
+        Music music = new Music();
+        music.setTitle(title);
+        music.setSinger(singer);
+        music.setTime(time);
+        music.setUrl(url);
+        music.setUserid(user_id);
+        int  ret =  musicDao.insert(music);
+        if (ret == 1){
+            resp.sendRedirect("list.html");
+        }
 
 
     }
