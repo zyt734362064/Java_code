@@ -91,7 +91,7 @@ public class MusicDao {
             statement = connection.prepareStatement(sql);
             statement.setInt(1,id);
             int ret = statement.executeUpdate();
-            /*if (ret == 1){
+            if (ret == 1){
                 if (findLoveMusicOnDel(id)){
                     int ret2 = removeLoveMusicOnDel(id);
                     if (ret2 == 1){
@@ -99,7 +99,7 @@ public class MusicDao {
                     }
                 }
                 return 1;//表示这首个没有被添加到 loveMusic 这张表当中
-            }*/
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
@@ -217,7 +217,7 @@ public class MusicDao {
      * @param musicId
      * @return
      */
-    public boolean findMusicByMusicId(int userId,int musicId){
+    public boolean findLoveMusicByMusicId(int userId,int musicId){
         Connection connection = null;
         PreparedStatement statement = null;
         ResultSet resultSet = null;
@@ -226,7 +226,7 @@ public class MusicDao {
             connection = DBUtil.getConnection();
             statement = connection.prepareStatement(sql);
             statement.setInt(1,userId);
-            statement.setInt(1,musicId);
+            statement.setInt(2,musicId);
             resultSet = statement.executeQuery();
             if (resultSet.next()){
                 return true;
