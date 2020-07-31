@@ -39,7 +39,8 @@ public class DeleteServlet extends HttpServlet {
         System.out.println(music.getUrl());
         if (delete == 1){
             //代表数据库删除了，但是服务器上的音乐还存在
-            File file = new File("E:\\java_code\\dataCode\\Java_code\\MusicPlayer\\web\\" + music.getUrl() + ".mp3");
+            //File file = new File("E:\\java_code\\dataCode\\Java_code\\MusicPlayer\\web\\" + music.getUrl() + ".mp3");
+            File file = new File("/root/java/apache-tomcat-8.5.57/webapps/rainbowMusic/" + music.getUrl() + ".mp3");
             if (file.delete()){
                 return_map.put("msg",true);
                 System.out.println("服务器删除成功！");

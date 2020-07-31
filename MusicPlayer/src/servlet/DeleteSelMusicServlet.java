@@ -37,7 +37,7 @@ public class DeleteSelMusicServlet extends HttpServlet {
 
 
             if (delete == 1){
-                File file = new File("E:\\java_code\\dataCode\\Java_code\\MusicPlayer\\web\\" + music.getUrl() + ".mp3");
+                File file = new File("/root/java/apache-tomcat-8.5.57/webapps/rainbowMusic/" + music.getUrl() + ".mp3");
                 if (file.delete()){
                    sum += delete;
                 }else {

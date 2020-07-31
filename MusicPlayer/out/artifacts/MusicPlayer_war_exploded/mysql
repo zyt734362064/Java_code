@@ -1,3 +1,5 @@
+create
+
 drop table if exists `music`;
 create table music(
     `id` int primary key auto_increment,
@@ -7,7 +9,7 @@ create table music(
     `url` varchar(100) not null,
     `userid` int(11) not null
 );
-insert into music(title,singer,time,url,userid) values ("红玫瑰","陈奕迅","2020-07-28","music/红玫瑰",1);
+
 drop table if exists `user`;
 create table user (
     id int primary key auto_increment,
@@ -17,6 +19,7 @@ create table user (
     gender varchar(2) not null,
     email varchar(50) not null
 );
+insert into user(username,password,age,gender,email) values ("aaa","123",18,"男","123456789@qq.com");
 
 drop table if exists lovemusic;
 create table lovemusic (
@@ -25,3 +28,4 @@ create table lovemusic (
     music_id int(11) not null
 );
 insert into lovemusic(user_id,music_id) values(1,2);
+insert into music(title,singer,time,url,userid) values ("红玫瑰","陈奕迅","2020-07-28","music/红玫瑰",1);

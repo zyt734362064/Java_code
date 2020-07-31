@@ -25,7 +25,7 @@ import java.util.List;
 @WebServlet("/upload")
 public class UploadMusicServlet extends HttpServlet {
 
-    private final String SAVEPATH = "E:\\java_code\\dataCode\\Java_code\\MusicPlayer\\web\\music";
+    private final String SAVEPATH = "/root/java/apache-tomcat-8.5.57/webapps/rainbowMusic/music";
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
