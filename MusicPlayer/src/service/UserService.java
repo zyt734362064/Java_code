@@ -19,10 +19,11 @@ public class UserService {
     }
 
     //注册
-    public User register(){
-        User user = new User();
-        userDao.register(user);
-        return user;
+    public User register(User registerUser){
+
+
+        userDao.register(registerUser);
+        return registerUser;
     }
 
 

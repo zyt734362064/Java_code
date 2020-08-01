@@ -15,11 +15,11 @@ import java.sql.SQLException;
  * Date:2020-07-27
  */
 public class UserDao {
-    public void register(User user){
+    public int register(User user){
         Connection connection = null;
         PreparedStatement statement = null;
         ResultSet resultSet = null;
-
+        int ret = 0;
 
         try {
             connection = DBUtil.getConnection();
@@ -30,7 +30,7 @@ public class UserDao {
             statement.setString(4,user.getGender());
             statement.setInt(3,user.getAge());
             statement.setString(5,user.getEmail());
-            statement.executeUpdate();
+            ret = statement.executeUpdate();
 
 
         } catch (SQLException e) {
@@ -39,6 +39,7 @@ public class UserDao {
         }finally {
             DBUtil.getClose(connection,statement,null);
         }
+        return ret;
     }
     //登录界面
     public  User login(User loginUser){

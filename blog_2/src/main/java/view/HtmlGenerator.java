@@ -10,7 +10,10 @@ package view;
 public class HtmlGenerator {
     //提示跳转页面
     public static String getMessagePage(String message,String nextUrl) {
+
+
         StringBuilder stringBuilder = new StringBuilder();
+
         stringBuilder.append("<html>");
         stringBuilder.append("<head>");
         stringBuilder.append("<meta charset=\"utf-8\">");
