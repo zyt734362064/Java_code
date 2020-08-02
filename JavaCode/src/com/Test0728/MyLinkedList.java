@@ -116,8 +116,28 @@ public class MyLinkedList {
             return null;
         }
 
-        //删除所有值为key的节点
+        //遍历单链表一遍删除所有值为key的节点
         public void removeAllKey(int key){
+            if (this.head == null){
+                return ;
+            }
+            Node prev = this.head;
+            Node cur =this.head.next;
+            while (cur != null){
+                if (cur.data == key){
+                    prev.next = cur.next;
+                    cur = cur.next;
+                }else {
+                    prev = cur;
+                    cur = cur.next;
+                }
+                if (this.head.data == key){
+                    this.head = this.head.next;
+                }
+            }
+
+
+
 
         }
         //得到单链表的长度
@@ -139,9 +159,14 @@ public class MyLinkedList {
             }
         }
 
-        public void clear(){
+    /**
+     * 用来释放内存
+     */
+    public void clear(){
+        this.head = null;
 
-        }
+
+    }
 
 
 }
