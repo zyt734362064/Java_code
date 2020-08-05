@@ -1,4 +1,4 @@
-package com;
+package com.Test0805;
 
 /**
  * Create with IntelliJ IDEA
@@ -6,7 +6,7 @@ package com;
  * User:Zyt
  * Date:2020-08-04
  */
-public class Test0804 {
+public class ThreadDemo2 {
     static class  Mythread extends Thread {
         @Override
         public void run() {
