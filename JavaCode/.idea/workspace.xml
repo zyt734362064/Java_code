@@ -45,7 +45,7 @@
       <file leaf-file-name="ThreadDemo3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Test0807/ThreadDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="439">
               <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#220#221#0" expanded="true" />
@@ -337,8 +337,7 @@
     <option name="totallyTimeSpent" value="178412000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -350,7 +349,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.29943502" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.29943502" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -779,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0807/ThreadDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="439">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#220#221#0" expanded="true" />
