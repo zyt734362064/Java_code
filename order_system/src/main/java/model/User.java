@@ -8,9 +8,10 @@ package model;
  */
 public class User {
     private  int userId;
-    private String name;
+
     private String password;
     private  int isAdmin;
+    private String name;
 
     public int getUserId() {
         return userId;
@@ -42,5 +43,15 @@ public class User {
 
     public void setIsAdmin(int isAdmin) {
         this.isAdmin = isAdmin;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", password='" + password + '\'' +
+                ", isAdmin=" + isAdmin +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

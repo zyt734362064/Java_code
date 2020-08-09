@@ -36,5 +36,12 @@ public class Dish {
         this.dishId = dishId;
     }
 
-
+    @Override
+    public String toString() {
+        return "Dish{" +
+                "dishId=" + dishId +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

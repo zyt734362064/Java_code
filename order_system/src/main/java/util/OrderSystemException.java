@@ -8,7 +8,7 @@ package util;
  */
 public class OrderSystemException extends Exception {
 
-    public OrderSystemException(String s) {
-
+    public OrderSystemException(String message) {
+        super(message);
     }
 }

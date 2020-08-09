@@ -15,7 +15,8 @@ public class Order {
     private int userId;
     private Timestamp time;
     private int isDone;
-    private List<Dish> dishes;//一个订单中包含了很多菜
+    //一个订单中包含了很多菜
+    private List<Dish> dishes;
 
     public int getOrderId() {
         return orderId;
@@ -55,5 +56,16 @@ public class Order {
 
     public void setDishes(List<Dish> dishes) {
         this.dishes = dishes;
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "orderId=" + orderId +
+                ", userId=" + userId +
+                ", time=" + time +
+                ", isDone=" + isDone +
+                ", dishes=" + dishes +
+                '}';
     }
 }
