@@ -4,6 +4,7 @@ E:\java_code\dataCode\Java_code\blog_2\src\main\java\model\UserDao.java
 E:\java_code\dataCode\Java_code\blog_2\src\main\java\view\HtmlGenerator.java
 E:\java_code\dataCode\Java_code\blog_2\src\main\java\model\DButil.java
 E:\java_code\dataCode\Java_code\blog_2\src\main\java\api\RegisterServlet.java
+E:\java_code\dataCode\Java_code\blog_2\src\main\java\api\DeleteArticleServlet.java
 E:\java_code\dataCode\Java_code\blog_2\src\main\java\api\LoginServlet.java
 E:\java_code\dataCode\Java_code\blog_2\src\main\java\api\ArticleServlet.java
 E:\java_code\dataCode\Java_code\blog_2\src\main\java\model\ArticleDao.java

@@ -19,7 +19,7 @@ import java.io.IOException;
 public class RegisterServlet  extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html;charset=ustf-8");
+        resp.setContentType("text/html;charset=utf-8");
         String name = req.getParameter("name");
         String password = req.getParameter("password");
         if (name == null || "".equals(name)

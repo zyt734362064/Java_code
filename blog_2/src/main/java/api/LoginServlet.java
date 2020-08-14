@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
         }
         UserDao userDao = new UserDao();
         User user = userDao.selectByName(name);
-        if (user == null || password.equals(user.getPassword())){
+        if (user == null || !password.equals(user.getPassword())){
             String html = HtmlGenerator.getMessagePage("用户名或密码错误！",
                     "login.html");
             resp.getWriter().write(html);

@@ -6,14 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>博客登录界面</title>
+    <link href="css/style.css" rel="stylesheet">
+        <style>
+            #body{
+                backgroud-image:url("images/1.jpg")
+            }
+        </style>
 </head>
 <body>
-<form action="login" method="post">
+
+<form action="login" class="box" method="post">
+    <h1>用户登录</h1>
     <input type="text" name="name" placeholder="请输入用户名">
     <br/>
     <input type="password" name="password" placeholder="请输入密码">
     <br/>
-    <input type="submit" placeholder="登录">
+    <input type="submit" value="登录">
+    <a href="register.html">注册用户</a>
 
 </form>
 
