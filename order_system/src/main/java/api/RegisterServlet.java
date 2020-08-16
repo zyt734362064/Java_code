@@ -71,5 +71,6 @@ public class RegisterServlet extends HttpServlet {
             resp.getWriter().write(jsonString);
         }
 
+
     }
 }
