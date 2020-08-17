@@ -29,15 +29,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadDemo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Test0807/ThreadDemo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ThreadDemo3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0807/ThreadDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSort1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSort1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0817/TestSort1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="36" />
+            <state relative-caret-position="270">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSort2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Test0817/TestSort2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-362">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -126,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Test0706/TestFileHeader.java" />
         <option value="$PROJECT_DIR$/src/com/Test0707/TcpEchoClient.java" />
         <option value="$PROJECT_DIR$/src/com/Test0707/TcpEchoServer.java" />
         <option value="$PROJECT_DIR$/src/com/Test0708/TcpThreadEchoServer.java" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/com/Test0811/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/Test0814/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/Test0817/TestSort1.java" />
+        <option value="$PROJECT_DIR$/src/com/Test0817/TestSort2.java" />
       </list>
     </option>
   </component>
@@ -189,7 +189,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -267,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSort1">
+  <component name="RunManager" selected="Application.TestSort2">
     <configuration name="Main1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test0705.Main1_1" />
       <module name="JavaCode" />
@@ -298,12 +298,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test0807.ThreadDemo1" />
+    <configuration name="TestSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test0817.TestSort2" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Test0807.*" />
+          <option name="PATTERN" value="com.Test0817.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,19 +329,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo1" />
       <item itemvalue="Application.ThreadDemo2" />
       <item itemvalue="Application.ThreadDemo3" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.TestSort1" />
+      <item itemvalue="Application.TestSort2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSort2" />
         <item itemvalue="Application.TestSort1" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.ThreadDemo3" />
         <item itemvalue="Application.ThreadDemo2" />
-        <item itemvalue="Application.ThreadDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -390,16 +390,15 @@
       <workItem from="1597326588467" duration="221000" />
       <workItem from="1597412270616" duration="1967000" />
       <workItem from="1597452735156" duration="250000" />
-      <workItem from="1597668977815" duration="4395000" />
+      <workItem from="1597668977815" duration="7877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200988000" />
+    <option name="totallyTimeSpent" value="204470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -411,7 +410,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.29943502" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.29943502" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -475,13 +474,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Test0708/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0710/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -822,8 +814,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0817/TestSort1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="36" />
+        <state relative-caret-position="270">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test0817/TestSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
