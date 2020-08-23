@@ -86,14 +86,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0823/TestMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="46" column="5" lean-forward="true" selection-end-line="48" />
+            <state relative-caret-position="263">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Test0824/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -120,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Test0802/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/Test0803/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/Test0803/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Test0803/TestDemo.java" />
@@ -171,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/com/Test0821/SortDemo.java" />
         <option value="$PROJECT_DIR$/src/com/Test0823/TestCollection.java" />
         <option value="$PROJECT_DIR$/src/com/Test0823/TestMap.java" />
+        <option value="$PROJECT_DIR$/src/com/Test0824/Solution.java" />
       </list>
     </option>
   </component>
@@ -183,7 +192,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -229,7 +238,7 @@
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test0823" type="462c0819:PsiDirectoryNode" />
+              <item name="Test0824" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,13 +270,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestMap">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Main1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test0705.Main1_1" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Test0705.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test0824.Solution" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Test0824.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,16 +321,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test0821.ThreadDemo1" />
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Test0821.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="ThreadDemo3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test0821.ThreadDemo3" />
       <module name="JavaCode" />
@@ -323,19 +332,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo1" />
       <item itemvalue="Application.ThreadDemo3 (1)" />
       <item itemvalue="Application.SortDemo" />
       <item itemvalue="Application.TestCollection" />
       <item itemvalue="Application.TestMap" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestMap" />
         <item itemvalue="Application.TestCollection" />
         <item itemvalue="Application.SortDemo" />
         <item itemvalue="Application.ThreadDemo3 (1)" />
-        <item itemvalue="Application.ThreadDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -392,15 +401,15 @@
       <workItem from="1597987691640" duration="7337000" />
       <workItem from="1598008337239" duration="7747000" />
       <workItem from="1598111247205" duration="625000" />
-      <workItem from="1598160246982" duration="8042000" />
+      <workItem from="1598160246982" duration="14268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271325000" />
+    <option name="totallyTimeSpent" value="277551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -477,13 +486,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Test0805/ThreadDemo6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0805/ThreadDemo7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -830,11 +832,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0823/TestMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="46" column="5" lean-forward="true" selection-end-line="48" />
+        <state relative-caret-position="263">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test0824/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
