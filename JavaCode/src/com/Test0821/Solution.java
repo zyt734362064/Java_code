@@ -28,7 +28,6 @@ public class Solution {
                 while (cur.next != null && cur.val == cur.next.val){
                     cur = cur.next;
                 }
-                cur = cur.next;
             }else {
                 tmp.next = cur;
                 tmp = tmp.next;
