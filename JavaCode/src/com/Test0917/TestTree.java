@@ -54,6 +54,17 @@ public class TestTree {
         inOrder(root.right);
     }
 
+    /**
+     * 求二叉树中节点的个数
+     * @param root
+     */
+    public static int size(Node root){
+        if (root == null){
+            return 0;
+        }
+        return 1 + size(root.left) + size(root.right);
+    }
+
     public static void postOrder(Node root){
         if (root == null){
             return;
@@ -63,15 +74,72 @@ public class TestTree {
         System.out.print(root.val + " ");
     }
 
+    /**
+     * 求二叉树叶子节点的个数
+     *
+     */
+    public static int leafSize(Node root){
+       if (root == null){
+           return 0;
+       }
+       if (root.left == null && root.right == null){
+           return 1;
+       }
+       return leafSize(root.left) + leafSize(root.right);
+    }
+
+    /**
+     * 求二叉树第 k 层节点的个数
+     * 如果 k < 1 只能是空树，直接返回 1
+     * 如果 k == 1 求根节点个数，直接返回 1
+     * k 层节点个数 = 左子树 k - 1 层节点个数 + 右子树 k - 1 层节点个数
+     * @param root
+     * @return
+     */
+    public static int kLevel(Node root,int k){
+
+        if (k < 1 || root == null){
+            return 0;
+        }
+        if (k == 1){
+            return 1;
+        }
+        return kLevel(root.left,k - 1) + kLevel(root.right,k - 1);
+    }
+
+    /**
+     * 二叉树中查找指定元素
+     * @param root
+     * @param toFind
+     * @return
+     */
+    Node find(Node root,char toFind){
+        if (root == null){
+            return null;
+        }
+        if (root.val == toFind){
+            return root;
+        }
+        Node result = find(root.right,toFind);
+        if (result != null){
+            return result;
+        }
+        return find(root.right,toFind);
+    }
+
     public static void main(String[] args) {
         Node root = build();
-        System.out.println("先序遍历:");
+/*        System.out.println("先序遍历:");
         preOrder(root);
         System.out.println();
         System.out.println("中序遍历：");
         inOrder(root);
         System.out.println();
         System.out.println("后序遍历：");
-        postOrder(root);
+        postOrder(root);*/
+
+        System.out.println(kLevel(root,3));
     }
+
+
 }
