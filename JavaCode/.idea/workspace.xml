@@ -20,26 +20,29 @@
       <file leaf-file-name="TestDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test1021/TestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="931">
               <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Test1021/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
               <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Test1021/QuickSort.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Test1110/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1113">
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1725">
+              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -47,7 +50,7 @@
       <file leaf-file-name="TestSort1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test0820/TestSort1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2108">
+            <state relative-caret-position="190">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
@@ -66,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Test0823/TestCollection.java" />
         <option value="$PROJECT_DIR$/src/com/Test0823/TestMap.java" />
         <option value="$PROJECT_DIR$/src/com/Test0824/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/Test0825/Test.java" />
@@ -117,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/com/Test1015/TestDemo.java" />
         <option value="$PROJECT_DIR$/src/com/Test1021/TestDemo.java" />
         <option value="$PROJECT_DIR$/src/com/Test1021/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/Test1110/Main.java" />
       </list>
     </option>
   </component>
@@ -129,7 +132,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -140,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -176,41 +178,14 @@
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test0820" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test0823" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test0824" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test0825" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test1021" type="462c0819:PsiDirectoryNode" />
+              <item name="Test1110" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +216,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test1110.Main" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Test1110.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test0705.Main1_1" />
       <module name="JavaCode" />
@@ -282,16 +267,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test0918.ThreadDemo" />
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Test0918.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test0918.ThreadDemo1" />
       <module name="JavaCode" />
@@ -303,19 +278,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo" />
       <item itemvalue="Application.ThreadDemo1" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.TestDemo (1)" />
       <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.TestDemo (1)" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.ThreadDemo1" />
-        <item itemvalue="Application.ThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -384,16 +359,16 @@
       <workItem from="1599441482630" duration="5232000" />
       <workItem from="1599726114555" duration="4882000" />
       <workItem from="1600344126813" duration="13373000" />
-      <workItem from="1602736796957" duration="13602000" />
+      <workItem from="1602736796957" duration="14201000" />
+      <workItem from="1604989152943" duration="3856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364101000" />
+    <option name="totallyTimeSpent" value="368556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -405,11 +380,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.3064972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.3064972" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5466102" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1427614" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14477211" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
@@ -439,13 +414,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Test0821/Solution3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0821/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -653,10 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="47" column="41" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="41" />
-          <folding>
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,67 +713,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Test1016.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test1016.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Test1015/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test0820/TestSort1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2108">
+        <state relative-caret-position="190">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test1021/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="931">
           <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test1021/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        <state relative-caret-position="389">
+          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test1110/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
         </state>
       </provider>
     </entry>
