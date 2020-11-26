@@ -29,8 +29,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test1120/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="57" />
+            <state relative-caret-position="1102">
+              <caret line="58" column="57" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -38,7 +38,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test1125/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="627">
               <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,11 +47,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Test1125/Main1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
+            <state relative-caret-position="589">
               <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Finder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Test1125/Finder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Test1126/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Test1126/Main1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="24" column="1" selection-start-line="10" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Test1126/Main3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Test1126/Main4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -69,11 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Test0826/MyQueueLinedList.java" />
-        <option value="$PROJECT_DIR$/src/com/Test0826/MyQueueLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/Test0821/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/Test0827/RemoveRepeatNode.java" />
-        <option value="$PROJECT_DIR$/src/com/Test0827/ReverseChain.java" />
         <option value="$PROJECT_DIR$/src/com/Test0831/MyQueueByArray.java" />
         <option value="$PROJECT_DIR$/src/com/Test0831/TestStack.java" />
         <option value="$PROJECT_DIR$/src/com/Test0901/Sort.java" />
@@ -120,6 +160,11 @@
         <option value="$PROJECT_DIR$/src/com/Test1123/Finder.java" />
         <option value="$PROJECT_DIR$/src/com/Test1125/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Test1125/Main1.java" />
+        <option value="$PROJECT_DIR$/src/com/Test1125/Finder.java" />
+        <option value="$PROJECT_DIR$/src/com/Test1126/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/Test1126/Main1.java" />
+        <option value="$PROJECT_DIR$/src/com/Test1126/Main3.java" />
+        <option value="$PROJECT_DIR$/src/com/Test1126/Main4.java" />
       </list>
     </option>
   </component>
@@ -132,7 +177,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -143,6 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,28 +225,12 @@
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test1120" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test1123" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Test1125" type="462c0819:PsiDirectoryNode" />
+              <item name="Test1126" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,13 +261,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test1125.Main" />
+  <component name="RunManager" selected="Application.Main3">
+    <configuration name="Finder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test1125.Finder" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Test1125.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test1126.Main" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Test1126.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test1126.Main1" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Test1126.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,50 +312,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test1123.MyClass" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test1126.Main3" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Test1123.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test1120.Solution" />
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Test1120.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test1110.Test" />
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Test1110.*" />
+          <option name="PATTERN" value="com.Test1126.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.MyClass" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Finder" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main1 (1)" />
+      <item itemvalue="Application.Main3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main1 (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Finder" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -378,15 +409,17 @@
       <workItem from="1605534125068" duration="724000" />
       <workItem from="1605852771253" duration="11013000" />
       <workItem from="1606093928504" duration="7548000" />
-      <workItem from="1606207191027" duration="7069000" />
+      <workItem from="1606207191027" duration="8658000" />
+      <workItem from="1606356812421" duration="6376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394910000" />
+    <option name="totallyTimeSpent" value="402875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -398,11 +431,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.3064972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.3064972" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5466102" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15281501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15482573" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
@@ -428,39 +461,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Test0901/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Test0902/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Test0902/Solution1_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Test0902/MyStack_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Test0902/MyQueueByStack.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Test0902/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1612">
@@ -740,14 +744,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test1120/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="57" />
+        <state relative-caret-position="1102">
+          <caret line="58" column="57" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test1125/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="627">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -757,8 +761,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test1125/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
+        <state relative-caret-position="589">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test1125/Finder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test1126/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test1126/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="24" column="1" selection-start-line="10" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test1126/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Test1126/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
