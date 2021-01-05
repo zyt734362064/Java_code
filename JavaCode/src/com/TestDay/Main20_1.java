@@ -4,7 +4,10 @@ import java.util.Arrays;
 
 /**
  * Create with IntelliJ IDEA
- * Description:
+ * Description:先对数组排序，
+ * 用Arrays.sort
+ * 取中间的数字进行判断
+ * 出现次数是否大于 n / 2
  * User:Zyt
  * Date:2021-01-05
  */
