@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main29_1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/TestDay/Main29_1.java">
+      <file leaf-file-name="Main41_1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/TestDay/Main41_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-770">
-              <caret line="2" selection-start-line="2" selection-end-line="43" />
+            <state relative-caret-position="39">
+              <caret line="2" selection-start-line="2" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -66,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Test0923/ThreadDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/Test1015/TestDemo3.java" />
         <option value="$PROJECT_DIR$/src/com/Test1015/Anmial.java" />
         <option value="$PROJECT_DIR$/src/com/Test1015/demo1/Anmial.java" />
@@ -117,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/com/TestDay/Main28_1.java" />
         <option value="$PROJECT_DIR$/src/com/TestDay/Main28_2.java" />
         <option value="$PROJECT_DIR$/src/com/TestDay/Main29_1.java" />
+        <option value="$PROJECT_DIR$/src/com/TestDay/Main41_1.java" />
       </list>
     </option>
   </component>
@@ -140,6 +140,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,9 +172,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main29_1">
+  <component name="RunManager" selected="Application.Main41_1">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Test1208.Main" />
       <module name="JavaCode" />
@@ -253,8 +253,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main_27_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.TestDay.Main_27_2" />
+    <configuration name="Main41_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.TestDay.Main41_1" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
@@ -264,19 +264,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Main_27_2" />
       <item itemvalue="Application.Main27_2_2" />
       <item itemvalue="Application.Main28_1" />
       <item itemvalue="Application.Main28_2" />
       <item itemvalue="Application.Main29_1" />
+      <item itemvalue="Application.Main41_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main41_1" />
         <item itemvalue="Application.Main29_1" />
         <item itemvalue="Application.Main28_2" />
         <item itemvalue="Application.Main28_1" />
         <item itemvalue="Application.Main27_2_2" />
-        <item itemvalue="Application.Main_27_2" />
       </list>
     </recent_temporary>
   </component>
@@ -366,15 +366,18 @@
       <workItem from="1610689980659" duration="8200000" />
       <workItem from="1611196655520" duration="63000" />
       <workItem from="1611305505814" duration="589000" />
-      <workItem from="1611540235144" duration="5149000" />
+      <workItem from="1611540235144" duration="5857000" />
+      <workItem from="1611900892702" duration="592000" />
+      <workItem from="1612229906410" duration="2000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483655000" />
+    <option name="totallyTimeSpent" value="486955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -390,7 +393,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5466102" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19034852" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
@@ -420,13 +423,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Test1015/demo1/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test1015/TeatDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -714,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,6 +741,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TestDay/Main29_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/TestDay/Main27_2_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
@@ -755,10 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TestDay/Main29_1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/TestDay/Main41_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
-          <caret line="2" selection-start-line="2" selection-end-line="43" />
+        <state relative-caret-position="39">
+          <caret line="2" selection-start-line="2" selection-end-line="36" />
         </state>
       </provider>
     </entry>
